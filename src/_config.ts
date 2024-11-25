@@ -97,11 +97,11 @@ export const fs_episodes_app = [
     uri: "https://github.com/yujincheng08/BiliRoaming/wiki#使用方法",
   },
   {
-    title: "官方反馈群",
-    uri: "https://t.me/biliroaming",
+    title: "项目群？想多了！",
+    uri: "https://example.com",
     badges: [
       {
-        text: "官方",
+        text: "喵",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -145,12 +145,12 @@ export const fs_episodes_web = [
   {
     id: 1,
     cover: "",
-    title: "官方反馈群",
-    url: "https://t.me/biliroaming",
+    title: "喵喵",
+    url: "https://example2.com/",
     release_date: "",
     badges: [
       {
-        text: "官方",
+        text: "miew~",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -161,7 +161,7 @@ export const fs_episodes_web = [
       },
     ],
     index_title: "2",
-    long_title: "官方反馈群",
+    long_title: "别看了",
   },
   {
     id: 1,
@@ -235,7 +235,7 @@ export const whitelist_vip_enabled: io = 0;
 //功能开关 1-开 0-关
 export const public_blacklist_enabled: io = 1;
 //公共黑名单地址 要求：URL后需可以直接加 UID/mid
-export const public_blacklist: string = "https://black.qimo.ink/api/users/";
+export const public_blacklist: string = "https://bili.zwei.de.eu.org/api/users/";
 //============================================================
 
 //=====================限制API调用=============================
@@ -249,13 +249,13 @@ export const pass_web_on_check: io = 1;
 //限制哔哩漫游最低版本 填写数字 0-不限制
 //1289为1.7.0的版本号,默认限制会定期更新至最新版。
 //1290为目前最新测试版(CI)。
-export const ver_min: number = 1290;
+export const ver_min: number = 1289;
 //限制播放特定番剧/视频
 //限制采用"或"策略，满足任意一项即封锁
 //默认屏蔽部分番剧/视频，建议保持
 export const block_bangumi: _block_bangumi = {
   ss: [], //暂不支持ss屏蔽
-  ep: [778998, 778292, 769927, 778044, 779739, 780016], //数字
+  ep: [778998], //数字
   cid: [], //数字
   avid: [], //数字
   bvid: [], //字符，eg. ["BV1Wz4y1t7g4"]
